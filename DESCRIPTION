@@ -1,0 +1,27 @@
+Package: CovidMali
+Title: Covid in Mali
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Patrick",
+           family = "Kelly",
+           email = "phototala@mail.com",
+           role = c("aut", "cre"))
+Description: Mali Covid cases
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    ggplot2,
+    plotly
+    
